@@ -22,7 +22,7 @@ html {
 
 
 header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/IMG/header.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://dannys-stack.github.io/DannyS-stack/IMG/header.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
