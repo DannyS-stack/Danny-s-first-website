@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: rgb(82, 82, 82);
+    font-family: 'Lato', 'arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+}
+
+.row {
+    width: 1140px;
+    margin:0 auto;
+}
+
+
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/IMG/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+.hero-text-box {
+    margin-bottom:30px;
+    color: #fff;
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.hero-text-box h1{
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    font-size: 350%;
+    font-weight: 250;
+
+}
+
+
+.btn {
+    display:inline-block;
+    padding: 16px 40px;
+    color: tomato;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: 300;
+    border: 2px solid tomato;
+    margin-right: 30px;
+}
+
+.btn:hover {
+    transition-duration: 0.5s;
+    background-color: #152238;
+    border: 2px solid #152238;
+}
+
+
+.about-me-section{
+    padding-top: 150px;
+    height: 100vh;
+    background-color: #152238;
+    background: linear-gradient(to top right,#152238 70%, tomato 30%);
+}
+
+.about-me-section p{
+    color: gray;
+}
+
+
+h2 {
+    color:white;
+    text-align: center;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+h2::after {
+    display:block;
+    height: 2px;
+    background-color: tomato;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.box1 {
+    background-color:rgba(0, 0, 0, 1);
+    margin:auto;
+    margin-bottom: 200px;
+}
+
+.image-me{
+    display: block;
+    border-radius: 200%;
+    width: 30%;
+    height: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.innerlink {
+color: tomato;
+transition-duration: 0.2s;
+}
+
+.innerlink:hover {
+color: goldenrod;
+}
+
+
+p {
+    color: white;
+    padding:50px ;
+    text-align: center;
+}
+
+.hobbies-section {
+    background: linear-gradient(to bottom left,#152238 70%, tomato 30%);
+    padding-bottom: 150px;
+    padding-top: 100px;
+
+}
+
+.back h4 {
+    text-align: center;
+    color: #152238;
+    margin-top: 8px;
+
+}
+
+.back h4::after{
+    display:block;
+    content: " ";
+    background-color:tomato;
+    height: 3px;
+    width:70px;
+    margin: 0 auto;
+    margin-top: 4px;
+
+}
+
+
+.back p {
+    text-align: center;
+    padding:10px ;
+    font-size: 80%;
+
+}
+
+
+
+/*===========================card=================================*/
+
+.x {
+    margin:auto;
+    perspective: 1000px;
+
+}
+
+
+.card {
+    position: relative;
+    background-color: ivory;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: transform 1s ease-in-out;
+    margin-bottom: 400px;
+    margin-top: 60px;
+    margin-left: 60px;
+   
+
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+
+.front  {
+    position: absolute;
+    color: ivory;
+    
+
+}
+
+.front img {
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+
+}
+
+.back {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-color:grey;
+    color: ivory;
+    transform: rotateY(180deg);
+}   
+
+
+/*===========================FOOTER=================================*/
+
+
+
+.find-me-section{
+    padding-top: 100px;
+    background-color: tomato;
+}
+
+
+.find-me-section h2::after {
+    background-color: #152238;
+}
+
+
+
+ion-icon {
+  font-size: 64px;
+  transition: transform 0.5s ease-in-out;
+  color: black;
+}
+
+
+ion-icon:hover {
+  transform: rotateX(360deg);
+  transform: transition 0.8s;
+
+}
+
+.media-icons  {
+    margin-left: 40%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+  li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 40px 0px 25px;
+ }
+
